@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="header_wrap">
       <p>Header</p>
       <div className="signup_box">
-        <p>Signup</p>
-        <p>Profile</p>
+        <Link to={"/"}>Signup</Link>
+        <Link to="/profile">Profile</Link>
       </div>
     </div>
   );

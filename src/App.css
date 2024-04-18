@@ -17,9 +17,13 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 12px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 12px;
 }
 .signup_box {
   gap: 12px;
+  display: flex;
+  margin-right: 22px;
 }
 form {
   width: 400px;
@@ -54,9 +58,18 @@ button {
 .box {
   display: flex;
 }
+.box p {
+  font-size: 18px;
+  margin-left: 12px;
+  color: gray;
+}
 .error {
   color: red;
 }
 .success {
   color: green;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
