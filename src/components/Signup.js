@@ -52,7 +52,7 @@ const Signup = () => {
     <div className="signup">
       <h2>Signup</h2>
 
-      <form onSubmit={handleSubmit}>
+      <form autocomplete="off" method="post" action="" onSubmit={handleSubmit}>
         <input
           type="text"
           onChange={handleInputChange}
@@ -62,12 +62,14 @@ const Signup = () => {
         <input
           type="email"
           onChange={handleInputChange}
+          autocomplete="off"
           placeholder="Email"
           name="email"
         />
         <input
           type="password"
           onChange={handleInputChange}
+          autocomplete="off"
           placeholder="Password"
           name="pass"
         />
